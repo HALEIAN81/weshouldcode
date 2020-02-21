@@ -1,11 +1,40 @@
+body {
+  background-color: #393e46;
+}
+
+
+
 h1 {
-  color: black;
+  color: orange;
   font-family: 'press start 2p';
   text-align: center;
+  background-color: #222831;
   }
 
 h2 {
   text-align: center;
-  color: black;
+  color: orange;
   font-family: 'press start 2p';
+  background-color: #222831;
+}
+
+.toolbar-container {
+  color: blue;
+  text-align: center;
+  list-style-position: inside;
+  background-color: #29a19c;
+}
+
+.footer-container {
+  text-align: center;
+  background-color: #a3f7bf;
+}
+
+.jetzchase-img {
+  width: 50%;
+
+}
+
+.video-container {
+  background-color: #393e46;
 }
