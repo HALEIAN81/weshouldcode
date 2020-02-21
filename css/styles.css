@@ -4,7 +4,6 @@ body {
   margin: 0;
 }
 
-
 h1 {
   color: orange;
   font-family: 'press start 2p';
@@ -24,7 +23,7 @@ h2 {
   text-align: center;
   list-style-position: inside;
   background-color: #29a19c;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .footer-container {
