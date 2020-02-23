@@ -1,5 +1,5 @@
 body {
-  background-color: #393e46;
+  background-color: #278ea5;
   padding: 0;
   margin: 0;
 }
@@ -8,31 +8,39 @@ h1 {
   color: orange;
   font-family: 'press start 2p';
   text-align: center;
-  background-color: #222831;
+  background-color: #071e3d;
   }
 
 h2 {
   text-align: center;
   color: orange;
   font-family: 'press start 2p';
-  background-color: #222831;
+  background-color: #071e3d;
 }
+
+a {
+  color: #11999E;
+  font-family:verdana;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
 
 .toolbar-container {
   color: white;
   text-align: center;
   list-style-position: inside;
-  background-color: #29a19c;
+  background-color: #1f4287;
   font-size: 1.5rem;
 }
 
 .footer-container {
   text-align: center;
-  background-color: #a3f7bf;
+  background-color: #21e6c1;
 }
 
 .jetzchase-img {
-  width: 90%;
+  width: 50%;
 }
 
 .video-container {
