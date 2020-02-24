@@ -25,6 +25,16 @@ a {
   text-decoration: none;
 }
 
+img {
+  margin: auto;
+}
+
+.welcome-container {
+  background-color: #071e3d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 .toolbar-container {
   color: white;
@@ -48,4 +58,8 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.weshouldcodelogo-img {
+  width: 30%;
 }
