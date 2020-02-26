@@ -4,6 +4,10 @@ body {
   margin: 0;
 }
 
+html {
+  background-color: #278ea5;
+}
+
 h1 {
   color: orange;
   font-family: 'press start 2p';
@@ -26,7 +30,9 @@ a {
 }
 
 img {
+  margin-top: 0px;
   margin: auto;
+  background-color: #071e3d;
 }
 
 .welcome-container {
