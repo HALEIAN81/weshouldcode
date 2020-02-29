@@ -23,7 +23,7 @@ h2 {
 }
 
 a {
-  color: #11999E;
+  color: #278ea5;
   font-family:verdana;
   margin: 10px 20px;
   text-decoration: none;
@@ -36,7 +36,7 @@ img {
 }
 
 .welcome-container {
-  background-color: #071e3d;
+  background-color: #1f4287;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -60,7 +60,7 @@ img {
 }
 
 .video-container {
-  background-color: #393e46;
+  background-color: #1F4287;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -68,4 +68,9 @@ img {
 
 .weshouldcodelogo-img {
   width: 30%;
+  background-color: #1f4287;
+}
+
+.nav-link {
+  color: #1F4287;
 }
