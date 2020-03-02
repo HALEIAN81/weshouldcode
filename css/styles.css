@@ -22,6 +22,10 @@ h2 {
   background-color: #071e3d;
 }
 
+.nav-link text-info font-weight-bolder {
+  color: #21e6c1;
+}
+
 a {
   color: #278ea5;
   font-family:verdana;
@@ -34,6 +38,8 @@ img {
   margin: auto;
   background-color: #071e3d;
 }
+
+
 
 .welcome-container {
   background-color: #1f4287;
@@ -69,8 +75,4 @@ img {
 .weshouldcodelogo-img {
   width: 30%;
   background-color: #1f4287;
-}
-
-.nav-link {
-  color: #1F4287;
 }
