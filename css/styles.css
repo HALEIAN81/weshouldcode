@@ -22,10 +22,6 @@ h2 {
   background-color: #071e3d;
 }
 
-.nav-link text-info font-weight-bolder {
-  color: #21e6c1;
-}
-
 a {
   color: #278ea5;
   font-family:verdana;
@@ -39,7 +35,9 @@ img {
   background-color: #071e3d;
 }
 
-
+.container-fluid {
+  padding: 1% 1%;
+}
 
 .welcome-container {
   background-color: #1f4287;
@@ -54,6 +52,12 @@ img {
   list-style-position: inside;
   background-color: #1f4287;
   font-size: 1.5rem;
+}
+
+.button-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .footer-container {
