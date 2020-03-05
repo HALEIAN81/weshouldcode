@@ -28,6 +28,12 @@ h3 {
   font-weight: bold;
 }
 
+h4 {
+  color: #21e6c1;
+  font-size: 2rem;
+  font-weight: normal;
+}
+
 p {
   color: white;
   font-size: 1.5rem;
@@ -37,7 +43,6 @@ a {
   color: #278ea5;
   font-family:verdana;
   margin: 10px 20px;
-  text-decoration: none;
 }
 
 img {
@@ -124,7 +129,8 @@ img {
 .icon {
   color: #21e6c1;
   padding-bottom: 5%;
-  background-color: #1F4287;
+  padding-top: 5%;
+  background-color: #071e3d;
 }
 
 .icon:hover {
@@ -136,19 +142,38 @@ img {
   background-color: #1f4287;
 }
 
+.wscnavbarbox-img {
+  background: transparent;
+}
+
 .navbar {
   padding: 0 0 0.5rem 0.5rem;
 }
 
 .nav-item {
-  padding: 0 1px;
+  padding: 0 0.5px;
 }
 
 .nav-link {
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-family: sans-serif;
 }
 
 .join-button {
   margin: 2% 3% 2% 0;
+}
+
+.iconlogo-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width:35%;
+  background: transparent;
+  padding: 5% 5%;
+}
+
+#testimonials {
+    text-align: center;
+    font-weight: bold;
+    background-color:  #1F4287;
 }
