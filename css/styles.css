@@ -170,11 +170,15 @@ img {
   justify-content: center;
   width:35%;
   background: transparent;
-  padding: 5% 5%;
+  padding: 7% 10%;
 }
 
 #testimonials {
     text-align: center;
     font-weight: bold;
     background-color:  #1F4287;
+}
+
+.carousel-item {
+  padding: 5% 5%;
 }
