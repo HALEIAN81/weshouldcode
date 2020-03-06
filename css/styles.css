@@ -32,6 +32,7 @@ h4 {
   color: #21e6c1;
   font-size: 2rem;
   font-weight: normal;
+  padding-top: 3%;
 }
 
 p {
@@ -74,6 +75,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 1% 3% 3% 3%;
 }
 
 .footer-container {
@@ -83,7 +85,7 @@ img {
 }
 
 .jetzchase-img {
-  width: 65%;
+  width: 75%;
 }
 
 .doing-img {
@@ -128,8 +130,7 @@ img {
 
 .icon {
   color: #21e6c1;
-  padding-bottom: 5%;
-  padding-top: 5%;
+  padding: 5% 3% 3%;
   background-color: #071e3d;
 }
 
