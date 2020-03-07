@@ -111,6 +111,20 @@ img {
   padding-bottom: 5%;
 }
 
+.triphoto2-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 5%;
+}
+
+.triphoto3-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 5%;
+}
+
 #features {
   padding: 0 5%;
 
@@ -151,10 +165,12 @@ img {
   background: transparent;
 }
 
+/* Height and width of margins of items in navbar */
 .navbar {
-  padding: 0 0 0.5rem 0.5rem;
+  padding: 0.1px 0.1px;
 }
 
+/* Spacing between navbar text items */
 .nav-item {
   padding: 0 0.5px;
 }
@@ -201,7 +217,6 @@ img {
 
 .card-body {
   background: #1F4287;
-  border: orange;
 }
 
 .card-title {
