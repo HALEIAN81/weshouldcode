@@ -35,6 +35,10 @@ h4 {
   padding-top: 3%;
 }
 
+h5 {
+  color: white;
+}
+
 p {
   color: white;
   font-size: 1.5rem;
@@ -181,4 +185,30 @@ img {
 
 .carousel-item {
   padding: 5% 5%;
+}
+
+#pricing {
+  padding: 5px;
+  text-align: center;
+}
+
+.card-header {
+  background: #21e6c1;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #1F4287;
+}
+
+.card-body {
+  background: #1F4287;
+  border: orange;
+}
+
+.card-title {
+  color: orange;
+  font-weight: bold;
+}
+
+.pricing-column {
+  padding: 3% 3% 3%;
 }
