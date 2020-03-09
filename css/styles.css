@@ -19,13 +19,16 @@ h2 {
   text-align: center;
   color: orange;
   font-family: 'press start 2p';
-  background-color: #071e3d;
+  background-color: #1f4287;
+  font-size: 3rem;
+  padding: 5%;
 }
 
 h3 {
   font-family: sans-serif;
   font-size: 2rem;
   font-weight: bold;
+  padding: 3% 3%;
 }
 
 h4 {
@@ -82,11 +85,39 @@ img {
   padding: 1% 3% 3% 3%;
 }
 
+.join-btn {
+  background-color: #FF7145;
+  font-size: 24px;
+  border-radius: 12px;
+}
+
+.news-btn {
+  background-color: #FF7145;
+  font-size: 24px;
+  border-radius: 12px;
+}
+
+.cta-container {
+  background-color: #1f4287;
+  padding: 3%;
+  margin: 2%;
+}
+
+.app-button {
+  padding-bottom: 3%;
+}
+
+.app-btn {
+  font-size: 48px;
+  border-radius: 12px;
+  background-color: #FF7145;
+}
+
 .footer-container {
   text-align: center;
   background-color: #21e6c1;
   font-size: 1.5rem;
-}
+  }
 
 .jetzchase-img {
   width: 75%;
@@ -146,10 +177,11 @@ img {
   font-weight: bold;
 }
 
+/* Defines background of font awesome icon element on website */
 .icon {
   color: #21e6c1;
-  padding: 5% 3% 3%;
-  background-color: #071e3d;
+  padding: 5% 5% 5% 5%;
+  background-color: #1F4287;
 }
 
 .icon:hover {
@@ -157,7 +189,7 @@ img {
 }
 
 .weshouldcodelogo-img {
-  width: 30%;
+  width: 45%;
   background-color: #1f4287;
 }
 
@@ -177,7 +209,8 @@ img {
 
 .nav-link {
   font-size: 0.8rem;
-  font-family: sans-serif;
+  font-family: 'press start 2p';
+
 }
 
 .join-button {
@@ -190,17 +223,18 @@ img {
   justify-content: center;
   width:35%;
   background: transparent;
-  padding: 7% 10%;
+  padding: 5% 5%;
 }
 
 #testimonials {
     text-align: center;
     font-weight: bold;
     background-color:  #1F4287;
+    font-family: 'press start 2p';
 }
 
 .carousel-item {
-  padding: 5% 5%;
+  padding: 1% 3%;
 }
 
 #pricing {
@@ -213,6 +247,7 @@ img {
   font-size: 1.5rem;
   font-weight: bold;
   color: #1F4287;
+  font-family: 'press start 2p';
 }
 
 .card-body {
