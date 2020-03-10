@@ -99,8 +99,8 @@ img {
 
 .cta-container {
   background-color: #1f4287;
-  padding: 3%;
-  margin: 2%;
+  padding: 1%;
+  margin: 5%;
 }
 
 .app-button {
@@ -108,7 +108,7 @@ img {
 }
 
 .app-btn {
-  font-size: 48px;
+  font-size: 36px;
   border-radius: 12px;
   background-color: #FF7145;
 }
@@ -208,7 +208,7 @@ img {
 }
 
 .nav-link {
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   font-family: 'press start 2p';
 
 }
@@ -224,6 +224,11 @@ img {
   width:35%;
   background: transparent;
   padding: 5% 5%;
+}
+
+.social-icon {
+  margin: 10px 15px;
+  color: #1f4287;
 }
 
 #testimonials {
