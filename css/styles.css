@@ -41,6 +41,7 @@ h4 {
   font-size: 2rem;
   font-weight: normal;
   padding-top: 3%;
+  background-color: #278ea5;
 }
 
 h5 {
@@ -140,26 +141,19 @@ img {
   justify-content: center;
 }
 
-.triphoto-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color:#278ea5;
-  padding-bottom: 5%;
+.card-title {
+  text-align: center;
+  padding: 5% 5%;
+  margin: 5%;
+}
+.card-text {
+  color: black;
+  background-color: #21e6c1;
 }
 
-.triphoto2-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding-bottom: 5%;
-}
-
-.triphoto3-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding-bottom: 5%;
+/* The whole white background of the card */
+.card-block {
+  background-color: #21e6c1;
 }
 
 #features {
