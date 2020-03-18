@@ -41,7 +41,6 @@ h4 {
   font-size: 2rem;
   font-weight: normal;
   padding-top: 3%;
-  background-color: #278ea5;
 }
 
 h5 {
@@ -145,7 +144,11 @@ img {
   text-align: center;
   padding: 5% 5%;
   margin: 5%;
+  color: orange;
+  font-weight: bold;
+  background-color: #21e6c1;
 }
+
 .card-text {
   color: black;
   background-color: #21e6c1;
@@ -153,12 +156,15 @@ img {
 
 /* The whole white background of the card */
 .card-block {
-  background-color: #21e6c1;
+  background-color: #1f4287;
+}
+
+.card-body {
+  background: #1F4287;
 }
 
 #features {
   padding: 1%;
-
 }
 
 .great-box {
@@ -238,6 +244,7 @@ img {
     font-weight: bold;
     background-color:  #1F4287;
     font-family: 'press start 2p';
+    margin-top: 5%;
 }
 
 .carousel-item {
@@ -258,12 +265,9 @@ img {
   font-family: 'press start 2p';
 }
 
-.card-body {
-  background: #1F4287;
-}
-
-.card-title {
+.plancard-title {
   color: orange;
+  font-size: 1.5rem;
   font-weight: bold;
 }
 
