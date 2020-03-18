@@ -152,6 +152,8 @@ img {
 .card-text {
   color: black;
   background-color: #21e6c1;
+  padding: 5% 5%;
+  margin: 5% 5%;
 }
 
 /* The whole white background of the card */
@@ -161,6 +163,12 @@ img {
 
 .card-body {
   background: #1F4287;
+}
+
+.explainer-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #features {
