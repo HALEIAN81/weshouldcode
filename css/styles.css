@@ -40,7 +40,6 @@ h4 {
   color: #21e6c1;
   font-size: 2rem;
   font-weight: normal;
-  padding-top: 3%;
 }
 
 h5 {
@@ -49,8 +48,9 @@ h5 {
 
 p {
   color: white;
-  font-size: 1rem;
+  font-size: 1.5rem;
   font-family: verdana;
+  padding: 1%;
 }
 
 a {
@@ -93,19 +93,29 @@ img {
 
 .join-btn {
   background-color: #FF7145;
-  font-size: 24px;
+  font-size: 30px;
   border-radius: 12px;
+}
+
+.join-btn:hover {
+  color: white;
+  background-color: #1f4287;
 }
 
 .news-btn {
   background-color: #FF7145;
-  font-size: 24px;
+  font-size: 30px;
   border-radius: 12px;
+}
+
+.news-btn:hover {
+  color: white;
+  background-color: #1f4287;
 }
 
 .cta-container {
   background-color: #1f4287;
-  margin: 5% 5%;
+  margin: 0% 0%;
 }
 
 .app-button {
@@ -119,6 +129,11 @@ img {
   font-family: verdana;
 }
 
+.app-btn:hover {
+  color: white;
+  background-color: #fada5e;
+}
+
 .footer-container {
   text-align: center;
   background-color: #21e6c1;
@@ -126,7 +141,7 @@ img {
   }
 
 .jetzchase-img {
-  width: 90%;
+  width: 100%;
 }
 
 .doing-img {
@@ -165,14 +180,26 @@ img {
   background: #1F4287;
 }
 
+.card-img-top {
+  background-color: #1F4287;
+}
+
 .explainer-btn {
   display: flex;
   align-items: center;
   justify-content: center;
+  font-weight: bolder;
+  background-color: #FF7145;
+  font-size: 30px;a
+  border-radius: 12px;
+}
+
+.explainer-btn:hover {
+  color: white;
+  background-color: #fada5e;
 }
 
 #features {
-  padding: 1%;
 }
 
 .great-box {
@@ -203,10 +230,11 @@ img {
 }
 
 .weshouldcodelogo-img {
-  width: 45%;
+  width: 35%;
   background-color: #1f4287;
 }
 
+/* Navbar boxlogo with transparent background */
 .wscnavbarbox-img {
   background: transparent;
 }
@@ -221,8 +249,9 @@ img {
   padding: 0 0.5px;
 }
 
+/* Flashing on hover over navbar links */
 .nav-item a:hover {
-  color: white !important;
+  color:  #FF7145 !important;
 }
 
 .nav-link {
@@ -234,17 +263,21 @@ img {
   margin: 2% 3% 2% 0;
 }
 
+.testimonial-text {
+  padding-bottom: 3%;
+}
 .iconlogo-img {
   display: flex;
   align-items: center;
   justify-content: center;
-  width:35%;
+  width:25%;
   background: transparent;
-  padding: 5% 5%;
+  padding: 5%;
 }
 
 .social-icon {
   color: #1f4287;
+  padding: 1%;
 }
 
 #testimonials {
@@ -252,7 +285,7 @@ img {
     font-weight: bold;
     background-color:  #1F4287;
     font-family: 'press start 2p';
-    margin-top: 5%;
+    margin-top: 2%;
 }
 
 .carousel-item {
@@ -281,4 +314,16 @@ img {
 
 .pricing-column {
   padding: 3% 3% 3%;
+}
+
+.tag-btn {
+  font-weight: bolder;
+  background-color: #FF7145;
+  font-size: 24px;
+  border-radius: 12px;
+}
+
+.tag-btn:hover {
+  color: white;
+  background-color: #fada5e;
 }
