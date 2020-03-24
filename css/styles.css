@@ -255,8 +255,8 @@ img {
 }
 
 .nav-link {
-  font-size: 0.9rem;
-  font-family: 'press start 2p';
+  font-size: 1.8rem;
+  font-family: 'ubuntu condensed';
 }
 
 .join-button {
@@ -271,6 +271,15 @@ img {
   align-items: center;
   justify-content: center;
   width:25%;
+  background: transparent;
+  padding: 5%;
+}
+
+.pricinglogo-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width:55%;
   background: transparent;
   padding: 5%;
 }
