@@ -59,6 +59,13 @@ a {
   margin: 10px 20px;
 }
 
+/* Controls hamburger setup/look */
+.navbar-toggler {
+  border: none;
+  background: transparent !important;
+  font-size: 30px;
+}
+
 img {
   margin-top: 0px;
   margin: auto;
