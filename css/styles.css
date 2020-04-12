@@ -62,6 +62,8 @@ a {
 /* Navbar boxlogo with transparent background */
 .wscnavbarbox-img {
   background: transparent;
+  width: 20%;
+  align-self: center;
 }
 
 /* Controls hamburger setup/look */
@@ -70,13 +72,16 @@ a {
   height: 6px;
   background-color: #278ea5;
   display: block;
-  transition: all 0.2s;
+  transition: all 0.5s;
   margin-top: 8px
 }
 
 .navbar-toggler {
   border: none;
   background: transparent !important;
+  margin: 5px;
+  padding: 9px 10px !important;
+  clear: right;
 }
 
 /* HAMBURGER ANIMATION */
@@ -110,6 +115,7 @@ a {
 /* Height and width of margins of items in navbar */
 .navbar {
   padding: 0.1px 0.1px;
+  min-height: 80px;
 }
 
 /* Spacing between navbar text items */
@@ -136,6 +142,7 @@ a {
 
 img {
   margin-top: 0px;
+  height:auto;
   margin: auto;
   background-color: #071e3d;
 }
@@ -269,6 +276,11 @@ img {
   border-radius: 12px;
 }
 
+.card {
+  border-radius: 12px;
+  border: none;
+}
+
 .explainer-btn:hover {
   color: white;
   background-color: #fada5e;
@@ -305,7 +317,7 @@ img {
 }
 
 .weshouldcodelogo-img {
-  width: 35%;
+  width: 45%;
   background-color: #1f4287;
 }
 
